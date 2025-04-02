@@ -13,6 +13,19 @@ Si se detectan personas, se dibujan rectángulos verdes alrededor de ellas. La i
 
 
 
+
+## ComputerVision2.py
+Este código implementa un sistema de visión computacional en tiempo real con una interfaz gráfica usando CustomTkinter. Utiliza modelos de YOLOv8 para detección de objetos, ResNet-18 para clasificación de imágenes y DeepLabV3 para segmentación, cargándolos al inicio.
+
+La interfaz gráfica permite cambiar entre cuatro funcionalidades: clasificación de objetos, detección de personas u objetos, segmentación de imágenes y seguimiento de objetos en video. Cada opción se gestiona con un frame independiente, y se alterna entre ellos mediante botones en un menú lateral.
+
+El código captura video en vivo desde la cámara y procesa los fotogramas en tiempo real. La clasificación utiliza ResNet-18, la detección se realiza con YOLOv8, la segmentación con DeepLabV3, y el seguimiento de objetos emplea MeanShift tras seleccionar una región de interés.
+
+El procesamiento de imágenes usa Torchvision para preprocesamiento y normalización antes de ser enviadas a los modelos. OpenCV maneja la captura de video y el dibujado de rectángulos en detección y seguimiento. Finalmente, la aplicación inicia con la interfaz y actualiza continuamente los fotogramas hasta que el usuario la cierra.
+
+
+
+
 ## Bibliotecas Necesarias
 
 - cv2
