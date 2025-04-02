@@ -38,7 +38,7 @@ Finalmente, el programa actualiza la interfaz gráfica en tiempo real con los re
 
 
 ## ComputerVision4.2.py
-Este código implementa un dashboard de visión computacional en Python utilizando CustomTkinter para la interfaz gráfica y modelos de inteligencia artificial para realizar tareas de clasificación, detección, segmentación y seguimiento de objetos.
+Este código implementa un Dashboard de visión computacional en Python utilizando CustomTkinter para la interfaz gráfica y modelos de inteligencia artificial para realizar tareas de clasificación, detección, segmentación y seguimiento de objetos.
 
 El constructor de la clase VisionDashboard configura la aplicación, inicializa la cámara web y carga los modelos de IA: ResNet50 para clasificación y YOLOv8 para detección y segmentación. Además, inicia hilos de procesamiento para cada tarea, asegurando la ejecución en paralelo.
 
@@ -47,6 +47,19 @@ La interfaz gráfica permite cambiar entre las diferentes funcionalidades median
 El código captura imágenes en tiempo real desde la webcam y las procesa con los modelos. Para la clasificación, convierte los frames en tensores y los pasa por ResNet50. En la detección y segmentación, usa YOLO para identificar objetos y superponer anotaciones en la imagen. Para el seguimiento, emplea OpenCV Tracker CSRT, detectando un objeto y manteniendo su posición en la imagen.
 
 Finalmente, los resultados se muestran en la interfaz en tiempo real mediante PhotoImage de PIL, actualizando los paneles correspondientes con las imágenes procesadas.
+
+
+
+
+## ComputerVision6py
+Este código implementa un Dashboard de visión computacional con modelos de clasificación, detección, segmentación y seguimiento de objetos en tiempo real, utilizando Python, OpenCV, YOLO, ResNet50 y CustomTkinter.
+La clase VisionDashboard gestiona la aplicación. En el constructor (__init__), configura la ventana, carga modelos de IA, inicializa la cámara y ejecuta hilos para capturar y procesar video.  
+
+Los modelos incluyen ResNet50 para clasificación, YOLOv8 para detección y segmentación, y OpenCV TrackerKCF para seguimiento de objetos. El preprocesamiento de imágenes se realiza con torchvision.transforms.  
+La interfaz gráfica se crea con CustomTkinter, usando un menú de botones para seleccionar modos y un Canvas para mostrar el video procesado.  
+
+El procesamiento de video ocurre en update_video, que captura frames de la cámara, y process_frame, que los analiza según el modo seleccionado. Los resultados se muestran en pantalla con update_main_display.  
+El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 
 
 
