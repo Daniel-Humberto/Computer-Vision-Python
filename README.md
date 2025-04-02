@@ -27,7 +27,7 @@ Este repositorio es una compilacion de varios proyectos de Computer Vision with 
 
 
 
-## Comandos para la Instalacion de las Bibliotecas Necesarias
+## Intalacion de Bibliotecas Necesarias
 
 - pip install opencv-python
  
@@ -46,3 +46,25 @@ Este repositorio es una compilacion de varios proyectos de Computer Vision with 
 - pip install YOLO
 
 - pip install tensorflow
+
+
+
+
+## Archivos de configuración de YOLO
+
+- yolov3.weights
+
+- yolov3.cfg
+ 
+- coco.names
+
+
+
+
+## Intalacion de Archivos de configuración de YOLO
+
+- wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
+ 
+- wget https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
+
+- wget https://pjreddie.com/media/files/yolov3.weights
