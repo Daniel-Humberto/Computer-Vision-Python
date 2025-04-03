@@ -1,5 +1,5 @@
 # 📷 Computer Vision With Python
-Este repositorio es una compilacion de varios proyectos de Computer Vision with Python and YOLO
+Este repositorio es una recopilacion de diversos proyectos de visión computacional desarrollados con Python y YOLO. Cada proyecto aborda diferentes aspectos de la visión por computadora, desde la detección de personas en tiempo real hasta la implementación de dashboards interactivos que utilizan modelos avanzados de inteligencia artificial para clasificación, detección, segmentación y seguimiento de objetos. Estos proyectos combinan el uso de bibliotecas populares como OpenCV, Torch, y CustomTkinter, ofreciendo soluciones prácticas y eficientes para aplicaciones de visión computacional.
 
 
 ---
