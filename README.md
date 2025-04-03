@@ -64,7 +64,7 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 
 
 
-## Bibliotecas Necesarias
+## 📚 Bibliotecas Necesarias
 
 - cv2
 
@@ -87,7 +87,7 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 
 
 
-## Intalacion de Bibliotecas Necesarias
+## 🛠️ Intalacion de Bibliotecas Necesarias
 
 - pip install opencv-python
  
@@ -110,7 +110,7 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 
 
 
-## Archivos de configuración de YOLO
+## 📄 Archivos de configuración de YOLO
 
 - yolov3.weights
 
@@ -121,7 +121,7 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 
 
 
-## Intalacion de Archivos de configuración de YOLO
+## 🛠️ Intalacion de Archivos de configuración de YOLO
 
 - wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
  
