@@ -2,6 +2,7 @@
 Este repositorio es una compilacion de varios proyectos de Computer Vision with Python and YOLO
 
 
+---
 
 
 ### 📷 ComputerVision1.py
@@ -12,6 +13,7 @@ Luego, se accede a la cámara web utilizando cv2.VideoCapture(0). Si la cámara 
 Si se detectan personas, se dibujan rectángulos verdes alrededor de ellas. La imagen procesada se muestra en una ventana en tiempo real. El programa sigue ejecutándose hasta que el usuario presiona la tecla 'q', momento en el cual se libera la cámara y se cierran las ventanas de OpenCV.
 
 
+---
 
 
 ### 📷 ComputerVision3.py
@@ -24,6 +26,7 @@ El código captura video en vivo desde la cámara y procesa los fotogramas en ti
 El procesamiento de imágenes usa Torchvision para preprocesamiento y normalización antes de ser enviadas a los modelos. OpenCV maneja la captura de video y el dibujado de rectángulos en detección y seguimiento. Finalmente, la aplicación inicia con la interfaz y actualiza continuamente los fotogramas hasta que el usuario la cierra.
 
 
+---
 
 
 ### 📷 ComputerVision4.py
@@ -35,6 +38,7 @@ El programa captura video en tiempo real desde la cámara usando OpenCV y lo pro
 Finalmente, el programa actualiza la interfaz gráfica en tiempo real con los resultados procesados. Al cerrarse, libera los recursos como la cámara y las ventanas de OpenCV.
 
 
+---
 
 
 ### 📷 ComputerVision4.2.py
@@ -49,6 +53,7 @@ El código captura imágenes en tiempo real desde la webcam y las procesa con lo
 Finalmente, los resultados se muestran en la interfaz en tiempo real mediante PhotoImage de PIL, actualizando los paneles correspondientes con las imágenes procesadas.
 
 
+---
 
 
 ### 📷 ComputerVision6py
@@ -62,6 +67,7 @@ El procesamiento de video ocurre en update_video, que captura frames de la cáma
 El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 
 
+---
 
 
 ## 📚 Bibliotecas Necesarias
@@ -85,6 +91,7 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 - Tensorflow
 
 
+---
 
 
 ## 🛠️ Intalacion de Bibliotecas Necesarias
@@ -108,6 +115,7 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 - pip install tensorflow
 
 
+---
 
 
 ## 📄 Archivos de configuración de YOLO
@@ -119,6 +127,7 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 - coco.names
 
 
+---
 
 
 ## 🛠️ Intalacion de Archivos de configuración de YOLO
@@ -128,3 +137,6 @@ El programa se ejecuta con run(), y al cerrarse, libera recursos con cleanup().
 - wget https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
 
 - wget https://pjreddie.com/media/files/yolov3.weights
+
+
+---
