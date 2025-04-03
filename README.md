@@ -4,7 +4,7 @@ Este repositorio es una compilacion de varios proyectos de Computer Vision with 
 
 
 
-## ComputerVision1.py
+### ComputerVision1.py
 El código utiliza la librería OpenCV para detectar personas en tiempo real a través de la cámara web. Primero, se configura un descriptor HOG (Histogram of Oriented Gradients) con un detector preentrenado para la detección de personas.
 
 Luego, se accede a la cámara web utilizando cv2.VideoCapture(0). Si la cámara no se abre correctamente, el programa se detiene. En el bucle principal, se capturan fotogramas continuamente y se aplican detecciones de personas mediante hog.detectMultiScale(), que analiza la imagen en busca de patrones característicos de figuras humanas.
@@ -14,7 +14,7 @@ Si se detectan personas, se dibujan rectángulos verdes alrededor de ellas. La i
 
 
 
-## ComputerVision3.py
+### ComputerVision3.py
 Este código implementa un sistema de visión computacional en tiempo real con una interfaz gráfica usando CustomTkinter. Utiliza modelos de YOLOv8 para detección de objetos, ResNet-18 para clasificación de imágenes y DeepLabV3 para segmentación, cargándolos al inicio.
 
 La interfaz gráfica permite cambiar entre cuatro funcionalidades: clasificación de objetos, detección de personas u objetos, segmentación de imágenes y seguimiento de objetos en video. Cada opción se gestiona con un frame independiente, y se alterna entre ellos mediante botones en un menú lateral.
@@ -26,7 +26,7 @@ El procesamiento de imágenes usa Torchvision para preprocesamiento y normalizac
 
 
 
-## ComputerVision4.py
+### ComputerVision4.py
 Este código implementa un dashboard de visión computacional en Python utilizando modelos de inteligencia artificial para clasificación, detección, segmentación y seguimiento de objetos en tiempo real. La interfaz gráfica está construida con CustomTkinter (ctk), mientras que los modelos de IA provienen de Torchvision y YOLOv8.
 
 Al iniciar, el programa carga modelos preentrenados, incluyendo ResNet50 para clasificación de imágenes y YOLOv8 para detección y segmentación. También configura la interfaz gráfica, dividiéndola en cuatro secciones: clasificación, detección, segmentación y seguimiento.
@@ -37,7 +37,7 @@ Finalmente, el programa actualiza la interfaz gráfica en tiempo real con los re
 
 
 
-## ComputerVision4.2.py
+### ComputerVision4.2.py
 Este código implementa un Dashboard de visión computacional en Python utilizando CustomTkinter para la interfaz gráfica y modelos de inteligencia artificial para realizar tareas de clasificación, detección, segmentación y seguimiento de objetos.
 
 El constructor de la clase VisionDashboard configura la aplicación, inicializa la cámara web y carga los modelos de IA: ResNet50 para clasificación y YOLOv8 para detección y segmentación. Además, inicia hilos de procesamiento para cada tarea, asegurando la ejecución en paralelo.
@@ -51,7 +51,7 @@ Finalmente, los resultados se muestran en la interfaz en tiempo real mediante Ph
 
 
 
-## ComputerVision6py
+### ComputerVision6py
 Este código implementa un Dashboard de visión computacional con modelos de clasificación, detección, segmentación y seguimiento de objetos en tiempo real, utilizando Python, OpenCV, YOLO, ResNet50 y CustomTkinter.
 La clase VisionDashboard gestiona la aplicación. En el constructor (__init__), configura la ventana, carga modelos de IA, inicializa la cámara y ejecuta hilos para capturar y procesar video.  
 
